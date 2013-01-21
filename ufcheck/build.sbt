@@ -1,10 +1,6 @@
 libraryDependencies ++= Seq(
-  "net.databinder" %% "unfiltered-netty-server" % "0.6.4" % "test" cross CrossVersion.binaryMapped {
-    case "2.10.0-RC5" => "2.9.2"
-    case "2.10.0-RC4" => "2.9.2"
-    case "2.10.0-RC3" => "2.9.2"
-    case "2.10.0-RC2" => "2.9.2"
-    case "2.10.0-RC1" => "2.9.2"
+  "net.databinder" %% "unfiltered-netty-server" % "0.6.5" % "test" cross CrossVersion.binaryMapped {
+    case "2.10.0" => "2.10"
     case x => x
   }
   ,
